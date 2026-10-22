@@ -1,0 +1,18 @@
+Algoritmo Tabla_Multiplicar()
+// declracion de variables
+    Definir K, i, resultado Como Entero
+//control de variables
+    Escribir "Ingrese el numero entero para generar su tabla:"
+    Leer K
+
+    i = 1
+
+    Mientras i <= 10 Hacer
+        resultado = K * i
+
+        Escribir K, " x ", i, " = ", resultado
+
+        i = i + 1
+    FinMientras
+
+FinAlgoritmo
